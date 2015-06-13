@@ -21,7 +21,7 @@ function playSound() {
 
 //check that our browser supports the web audio api.
 if(window.AudioContext || window.webkitAudioContext){
-	var audio_url = '/sounds/hero.mp3';
+	var audio_url = 'sounds/hero.mp3';
 
 	var audio_context = new (window.AudioContext || window.webkitAudioContext)();
 	var sound_request = new XMLHttpRequest();
